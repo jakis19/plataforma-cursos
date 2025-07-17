@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #FED001; /* Define a cor primária usada para botões e outros elementos */
+}
+
+html {
+    /* 
+    font-size: 62.5%; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; //o valor 400 representa um peso de fonte "regular" ou "norma
+    */
+    font: 400 62.5% 'Inter', sans-serif; /* Define fonte padrão e reduz escala para facilitar uso de rem */
+}
+
+p,
+a {
+    font-size: 1.6rem; /* Define o tamanho da fonte para parágrafos e links */
+}
+
+h1 {
+    font-size: 4.8rem; /* Tamanho da fonte para o título de nível 1 */
+}
+
+h2 {
+    font-size: 4rem; /* Tamanho da fonte para o título de nível 2 */
+}
+
+h3 {
+    font-size: 3.2rem; /* Tamanho da fonte para o título de nível 3 */
+}
+
+nav a {
+    color: inherit; /* Herda a cor do elemento pai para os links de navegação */
+}
+
+.upper {
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+}
+
+.btn {
+    background-color: var(--primary-color); /* Define a cor de fundo do botão */
+    border-radius: 4px; /* Define o arredondamento das bordas do botão */
+    font-size: 1.8rem; /* Define o tamanho da fonte do botão */
+    text-decoration: none; /* Remove o sublinhado do botão */
+    padding: 1.6rem 4.6rem; /* Define o espaçamento interno do botão */
+    display: inline-block; /* Faz o botão respeitar o modelo de caixa inline */
+    color: inherit; /* Herda a cor do texto do elemento pai  */
+}
+
+.wrapperContainer {
+    padding-top: 1px; /* Define um pequeno espaçamento superior */
+}
+
+.wrapperContainer-dark {
+    background-color: #2a2a2a; /* Define o fundo escuro */
+    color: #fafafa; /* Define a cor clara para o texto */
+}
+
+.wrapperContainer-light {
+    background-color: #fafafa; /* Define o fundo claro */
+}
+
+.wrapperContainer-dark2 {
+    background-color: #003464; /* Define um fundo azul escuro */
+    color: #fafafa; /* Define a cor do texto para branco */
+}
+
+.wrapperContainer-fixed {
+    position: sticky; /* Define o elemento como fixo ao rolar a página */
+    width: 100%; /* Alarga o elemento para a largura completa */
+    top: 0; /* Fixa o elemento no topo da página */
+    left: 0; /* Alinha o elemento à esquerda */
+}
+
+.wrapperContainer-padded {
+    padding-top: 12rem; /* Define um grande espaçamento superior */
+}
+
+.container {
+    max-width: 127.6rem; /* Define a largura máxima para centralizar o conteúdo */
+    margin: auto; /* Centraliza o conteúdo */
+}
+
+.section_title {
+    padding: 7rem 0; /* Define espaçamento vertical para o título da seção */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens extras */
+}
+
+.section_btn {
+    margin: 7rem 0; /* Define espaçamento vertical para o botão da seção */
+}
+
+.header {
+    display: flex; /* Exibe o cabeçalho como flexível */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    align-items: center; /* Centraliza verticalmente os itens */
+    color: var(--primary-color); /* Define a cor dos itens do cabeçalho */
+    padding: 2rem 0; /* Define espaçamento vertical */
+}
+
+.header_nav a {
+    padding: .75em 1.15em; /* Define o espaçamento interno dos links do cabeçalho */
+    border: solid 1px; /* Adiciona uma borda aos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.header_nav ul {
+    display: flex; /* Exibe os links do cabeçalho em linha */
+    gap: .6rem; /* Define o espaçamento entre os itens */
+    list-style-type: none; /* Remove os marcadores de lista */
+}
+
+.header_nav a:hover {
+    background-color: black; /* Define a cor de fundo ao passar o mouse sobre o link */
+}
+
+.wrapperContainer-hero {
+    background-image: linear-gradient(transparent, rgb(255, 255, 86)); /* Adiciona gradiente de cor para o fundo do herói */
+}
+
+.heroBanner {
+    display: flex; /* Exibe o banner como flexível */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    align-items: center; /* Centraliza verticalmente os itens */
+    gap: 20rem; /* Define o espaçamento entre os itens */
+}
+
+.hero_title {
+    margin-bottom: 4rem; /* Define um espaçamento inferior para o título */
+}
+
+.cursos {
+    text-align: center; /* Centraliza o texto na seção de cursos */
+}
+
+.cursosContainer {
+    display: flex; /* Exibe os cards de curso como flexível */
+    text-align: left; /* Alinha o texto à esquerda */
+    gap: 2rem; /* Define o espaçamento entre os cards */
+}
+
+.curso_card {
+    flex: 1; /* Faz o card ocupar o máximo de espaço disponível */
+}
+
+.curso_card img {
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    width: 100%; /* Define a largura da imagem para preencher o card */
+}
+
+.curso_card h3 {
+    font-size: 2.4rem; /* Define o tamanho da fonte para o título do card */
+}
+
+.curso_card p {
+    font-size: 1.8rem; /* Define o tamanho da fonte para o texto do card */
+    line-height: 1.5; /* Define o espaçamento entre linhas */
+}
+
+.cursos_card_content {
+    padding: 1rem 1.25rem; /* Define o espaçamento interno do conteúdo do card */
+    border: 1px solid #ccc; /* Define uma borda clara ao redor do conteúdo */
+    border-radius: 0 0 8px 8px; /* Arredonda os cantos inferiores */
+    border-top: transparent; /* Remove a borda superior */
+}
+
+.escola {
+    display: flex; /* Exibe a seção da escola como flexível */
+    gap: 7rem; /* Define o espaçamento entre os elementos */
+    padding-top: 6rem; /* Define um espaçamento superior */
+}
+
+.escola_title {
+    font-size: 3.2rem; /* Define o tamanho da fonte para o título da escola */
+    margin-top: 2rem; /* Define um espaçamento superior */
+}
+
+.escola p {
+    font-size: 1.8rem; /* Define o tamanho da fonte para o texto da escola */
+    line-height: 1.5; /* Define o espaçamento entre linhas */
+}
+
+.contatos_address {
+    text-align: right; /* Alinha o endereço à direita */
+    font: normal 400 1.8rem "Inter", sans-serif; /* Define a fonte e o tamanho */
+    padding: 3rem 0; /* Define espaçamento vertical */
+}
+
+.footer {
+    font-size: 1.6rem; /* Define o tamanho da fonte para o rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 4.5rem; /* Define espaçamento em torno do rodapé */
+}
+
+.footer a {
+    color: inherit; /* Herda a cor para links no rodapé */
+}
