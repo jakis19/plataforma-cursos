@@ -1,7 +1,7 @@
 # Plataforma Cursos
 
 Este projeto é uma plataforma para gerenciamento e oferta de cursos online. Ele foi desenvolvido com o objetivo de facilitar o cadastro, administração e acompanhamento de alunos e conteúdos.
-[VEJA AQUI] https://jakis19.github.io/plataforma-cursos/
+VEJA AQUI: https://jakis19.github.io/plataforma-cursos/
 
 ## Funcionalidades
 
